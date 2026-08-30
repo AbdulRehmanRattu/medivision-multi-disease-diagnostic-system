@@ -149,9 +149,9 @@ print('Tuberculosis Risk Probability:', float(pred[0][0]))
 
 ---
 
-## Author and Contact
+## Author & Executive Contact
 
-**Abdul Rehman Rattu**
-- Founder and CEO, [Rapide Technologies](https://www.rapidetechnologies.com)
-- Email: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)
-- GitHub: [@AbdulRehmanRattu](https://github.com/AbdulRehmanRattu)
+**Abdul Rehman Rattu**  
+Founder and CEO, [Rapide Technologies](https://www.rapidetechnologies.com)  
+Email: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)  
+LinkedIn: [linkedin.com/in/abdul-rehman-rattu-395bba237](https://www.linkedin.com/in/abdul-rehman-rattu-395bba237)
