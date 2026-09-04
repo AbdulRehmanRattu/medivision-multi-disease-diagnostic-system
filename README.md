@@ -52,21 +52,10 @@ Pulmonary diseases including tuberculosis, viral/bacterial pneumonia, COVID-19, 
 
 ## System Architecture and Workflow
 
-```
-+------------------+     +-----------------------+     +-------------------------+
-|  Patient Scans   | --> | Image Preprocessing   | --> | Multi-CNN Deep Inference|
-|  (CXR / CT Scan) |     | Resizing (224x224)    |     | - TB Detection Network  |
-+------------------+     | CLAHE & Normalization |     | - COVID-19 Classifier   |
-                         +-----------------------+     | - Pneumonia Detector    |
-                                                       | - CT Lung Cancer Engine |
-                                                       +-------------------------+
-                                                                    |
-                                                                    v
-+------------------+     +-----------------------+     +-------------------------+
-| Structured Report| <-- | Flask Web Dashboard   | <-- | Softmax Probability     |
-| & Clinical Flags |     | Real-Time Diagnostics |     | Distribution & Score    |
-+------------------+     +-----------------------+     +-------------------------+
-```
+<div align="center">
+  <img src="assets/architecture_pipeline.png" alt="MediVision Multi-Disease Radiological Architecture" width="100%">
+  <p><em>Figure 1: End-to-end technical topology of the MediVision Multi-Disease Diagnostic System, showing multimodal scan ingestion, CLAHE adaptive equalization, multi-CNN deep inference ensemble (TB, COVID-19, Pneumonia, Lung Cancer), and integrated Flask clinical decision workstation.</em></p>
+</div>
 
 ---
 
